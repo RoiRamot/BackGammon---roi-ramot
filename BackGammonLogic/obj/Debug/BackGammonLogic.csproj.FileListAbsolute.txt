@@ -1,0 +1,9 @@
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\BackGammonLogic.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\BackGammonLogic.pdb
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\obj\Debug\BackGammonLogic.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\obj\Debug\BackGammonLogic.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\obj\Debug\BackGammonLogic.pdb
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\ComputerPlayer.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\Dice.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\ComputerPlayer.pdb
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\BackGammonLogic\bin\Debug\Dice.pdb

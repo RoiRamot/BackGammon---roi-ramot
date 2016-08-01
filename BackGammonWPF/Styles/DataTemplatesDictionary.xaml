@@ -1,0 +1,52 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DataTemplate x:Key="CheckerTemp">
+        <Ellipse Width="20"
+                 Height="20"
+                 Margin="1"
+                 Fill="White"
+                 Stroke="NavajoWhite"
+                 StrokeThickness="3" />
+    </DataTemplate>
+    <DataTemplate x:Key="ColumnTemplate">
+        <Grid Width="100" Height="300">
+            <Path x:Name="Path"
+                  Data="M0,0L40,0 20,95z"
+                  Fill="White"
+                  Stretch="Fill"
+                  Stroke="{Binding ArrowColor,
+                                   FallbackValue=red}"
+                  StrokeThickness="2" />
+            <ItemsControl x:Name="CheckersList"
+                          ItemTemplate="{StaticResource CheckerTemp}"
+                          ItemsSource="{Binding CheckersCount}" />
+        </Grid>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}}" Value="True">
+                <Setter TargetName="Path" Property="Stroke" Value="Yellow" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Id, Converter={StaticResource IdToColorConverter}}" Value="1">
+                <Setter TargetName="Path" Property="Fill" Value="Red" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Id, Converter={StaticResource IdToColumOrientation}}" Value="1">
+                <Setter TargetName="Path" Property="Data" Value="M139,159L179,159 159,64z" />
+                <Setter TargetName="CheckersList" Property="VerticalAlignment" Value="Bottom" />
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+    <DataTemplate x:Key="PrisonTemplate">
+        <Grid>
+            <Border Width="30"
+                    Margin="0 -20"
+                    Background="SandyBrown" />
+            <ItemsControl x:Name="CheckersList"
+                          ItemTemplate="{StaticResource CheckerTemp}"
+                          ItemsSource="{Binding checkersCount}" />
+        </Grid>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}}" Value="True" />
+            <DataTrigger Binding="{Binding IsLower}" Value="True">
+                <Setter TargetName="CheckersList" Property="VerticalAlignment" Value="Bottom" />
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+</ResourceDictionary>

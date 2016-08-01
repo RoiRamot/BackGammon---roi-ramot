@@ -1,0 +1,5 @@
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\ComputerPlayer\bin\Debug\ComputerPlayer.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\ComputerPlayer\bin\Debug\ComputerPlayer.pdb
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\ComputerPlayer\obj\Debug\ComputerPlayer.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\ComputerPlayer\obj\Debug\ComputerPlayer.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\ComputerPlayer\obj\Debug\ComputerPlayer.pdb

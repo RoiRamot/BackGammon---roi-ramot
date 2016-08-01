@@ -1,0 +1,5 @@
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\Dice\bin\Debug\Dice.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\Dice\bin\Debug\Dice.pdb
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\Dice\obj\Debug\Dice.csprojResolveAssemblyReference.cache
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\Dice\obj\Debug\Dice.dll
+C:\projects\קורס .net\11.2\Backgammon2.0\BackGammonConsole\Dice\obj\Debug\Dice.pdb
